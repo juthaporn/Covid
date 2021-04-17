@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap");
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+.card-body {
+  flex: 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.col {
+  max-width: 30%;
+  margin-bottom: 0px;
+}
+
+.h1,
+h1 {
+  font-family: "Athiti";
+  text-align: center;
+}
+
+h4 {
+  font-family: "Athiti";
+  text-align: center;
+  color: rgb(133, 61, 167);
+}
+
+h5 {
+  font-family: "Athiti";
+  text-align: center;
+}
+
+.bg-Confirmed {
+  background-color: #e1298e !important;
+}
+
+.bg-Recovered {
+  background-color: #046034 !important;
+}
+
+.bg-Hospitalized {
+  background-color: #179c9b !important;
+}
+
+.bg-Deaths {
+  background-color: #666 !important;
+}
+
+.card-title {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  text-align: center;
+}
